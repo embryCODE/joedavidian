@@ -256,6 +256,8 @@ a:active {
 
 #albums_right {
   width: 100%;
+  overflow: auto;
+  float: none;
 }
 
 .jd3 {
@@ -263,7 +265,7 @@ a:active {
   color: #707070;
   width: 185px;
   position: relative;
-  bottom: 6px;
+  top: 7px;
   text-align: center;
 }
 
@@ -285,6 +287,17 @@ a:active {
 }
 
 .itunes-link img {
-  margin-bottom: 100px;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+.volume-number {
+  display: block;
+  font-size: 12px;
+}
+
+.mason-videos {
+  margin-top: 50px;
 }
 /* End Mason's CSS */
