@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+  background-image: url(../images/backgrd.jpg);
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+a:link {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3cadf4;
+}
+
+a:active {
+  text-decoration: none;
+  color: 3cadf4;
+}
+
+#maincontent {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 960px;
+  height: 115px;
+  float: left;
+}
+
+#links {
+  width: 990px;
+  height: 33px;
+  float: left;
+}
+
+#mainpagevideo {
+  width: 957px;
+  border: #3cadf4;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#abouttop {
+  width: 960px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contacttop {
+  width: 800px;
+  float: left;
+  padding-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#aboutmain {
+  width: 960px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#pressmain {
+  width: 960px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#bottomlink {
+  width: 960px;
+  height: 71px;
+  float: left;
+}
+
+#footer {
+  width: 960px;
+  height: 25px;
+  float: left;
+  margin-top: 10pt;
+}
+
+.bodytext {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 10px;
+}
+
+.contactbodytext {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 12px;
+}
+
+.bodytext_large {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bodytext_header {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 33px;
+  line-height: 20px;
+}
+
+#showdate {
+  width: 150px;
+  float: left;
+}
+
+.showdate {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#showlocation {
+  width: 400px;
+  float: left;
+}
+
+.showlocation {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3cadf4;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#showcity {
+  width: 200px;
+  float: left;
+}
+
+.showcity {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#showtime {
+  width: 75px;
+  float: left;
+}
+
+.showtime {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#showwebsite {
+  width: 75px;
+  float: left;
+}
+
+.showwebsite {
+  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCCCCC;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#music_player {
+  float: left;
+  height: 190px;
+  width: 340px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+
+#albums_right {
+  width: 554px;
+  height: 290px;
+  float: left;
+}
+
+
+/* Mason's CSS */
+
+
+/* responsive videos */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* contact page */
+
+#contacttop {
+  padding: 0;
+  margin: 0;
+}
+
+#contacttop img {
+  padding: 30px 0 30px 0;
+}
+
+.contact-links {
+  color: white;
+  font-size: 1.35em;
+  display: block;
+  clear: left;
+  padding: 30px 0 50px 0;
+}
+
+.contact-links a {
+  color: #3A86B5;
+}
+
+#albums_right {
+  width: 100%;
+}
+
+.jd3 {
+  display: inline-block;
+  color: #707070;
+  width: 185px;
+  position: relative;
+  bottom: 6px;
+  text-align: center;
+}
+
+.jd3 img {
+  width: 165px;
+}
+
+.jd3 h5 {
+  color: #d1d1d1;
+  font-size: 14px;
+  margin: 8px 0 1px 0;
+  text-transform: uppercase;
+}
+
+.jd3 p {
+  font-size: 12px;
+  padding: 0 0 8px 0;
+  margin: 0;
+}
+
+.itunes-link img {
+  margin-bottom: 100px;
+}
+/* End Mason's CSS */
